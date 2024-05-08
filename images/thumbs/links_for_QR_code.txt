@@ -1,0 +1,8 @@
+CFM-ID:
+CFM-ID 4: https://pubmed.ncbi.nlm.nih.gov/34403256/
+CFM-ID 4 NAR: <I Will send this>
+CFM-ID Web: https://cfmid.wishartlab.com/
+NPS-MS:
+NPS-MS: <I only have a workshop version>
+DarkNPS:
+DarkNPS: https://www.nature.com/articles/s42256-021-00407-x
