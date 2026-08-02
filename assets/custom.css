@@ -41,6 +41,12 @@ a.news:link, a.news:visited, .aux {
 a.news:hover, a.news:active {
     background-color: #135dcc;
 }
+a.source_code:hover, a.source_code:active {
+    background-color: #f5f5f5;
+}
+a.source_code:hover, a.source_code:active {
+    background-color: #f5f5f5;
+}
 ul.vert {
     border-left: 0px solid red;
     background-color: #f1f1f1;
@@ -161,8 +167,7 @@ p {
     font-family: Georgia, "Cambria", serif;
     color: #444;
     line-height: 1.8em;
-}
-.post-meta {
+}.post-meta {
     color: #999;
     font-size: 90%;
     margin: 0;
