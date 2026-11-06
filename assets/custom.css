@@ -61,7 +61,17 @@ sup { font-size: .7em; line-height: 0; }
 }
 .skip-link:focus { top: 1rem; }
 
-.site-header { border-bottom: 1px solid var(--rule); }
+.site-header { position: relative; border-bottom: 1px solid var(--rule); }
+.site-header::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -1px;
+  left: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgb(36 88 166 / 30%), transparent);
+  pointer-events: none;
+}
 .header-inner, .page-layout, .site-footer {
   width: min(1120px, calc(100% - 96px));
   margin-inline: auto;
@@ -83,6 +93,17 @@ sup { font-size: .7em; line-height: 0; }
   white-space: nowrap;
 }
 .wordmark span { color: var(--burgundy); }
+/* A tiny N7-inspired stripe, kept purely decorative. */
+.wordmark::after {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 4px;
+  margin-left: 10px;
+  background: linear-gradient(90deg, var(--burgundy) 0 58%, #fff 58% 75%, var(--burgundy) 75%);
+  transform: skewX(-24deg);
+  vertical-align: middle;
+}
 .header-inner nav { display: flex; align-items: center; flex-wrap: wrap; gap: 1.9rem; }
 .header-inner nav a { color: var(--muted); font-size: 14px; font-weight: 500; text-decoration: none; }
 .header-inner nav a:hover { color: var(--accent); text-decoration: underline; }
