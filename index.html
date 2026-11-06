@@ -1,265 +1,227 @@
 <!DOCTYPE html>
 <!--
-    Plain-Academic by Vasilios Mavroudis
-    Released under the Simplified BSD License/FreeBSD (2-clause) License.
-    https://github.com/mavroudisv/plain-academic
+Based on Plain-Academic by Vasilios Mavroudis.
+Released under the Simplified BSD License/FreeBSD (2-clause) License.
+https://github.com/mavroudisv/plain-academic
 -->
-
 <html lang="en">
-<head>
-  <title>Fei Wang</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="assets/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <!-- <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'> -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="assets/custom.css">
-  <link  rel="stylesheet" href="assets/font.css">
-  <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/fav/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/fav/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/fav/favicon-16x16.png">
-  <link rel="shortcut icon" href="assets/fav/favicon.ico" />
-</head>
-<body>
+  <head>
+    <title>Fei Wang | AI for Science &amp; Health</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Fei Wang is a PhD student at the University of Alberta developing machine learning methods for molecular discovery and computational metabolomics, with applications in drug discovery and human health.">
+    <meta name="theme-color" content="#fafbfe">
+    <link rel="stylesheet" href="assets/custom.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/fav/favicon-16x16.png">
+    <link rel="shortcut icon" href="assets/fav/favicon.ico">
+  </head>
+  <body id="home">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="wordmark" href="#home">Fei Wang<span aria-hidden="true">.</span></a>
+        <nav aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#projects">Projects</a>
+          <a href="#publications">Publications</a>
+          <a href="#talks">Talks</a>
+          <a class="cv-link" href="file/FeiWangCV_2026.pdf">CV <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
 
-
-<!-- Navigation -->
-	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-	  <div class="container">
-		<div class="navbar-header">
-		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-		</div>
-
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		  <ul class="nav navbar-nav">
-				  <li><a href="index.html">Home</a></li>
-          <li><a href="#projects">Projects</a></li>
-				  <li><a href="#publications">Publications</a></li>
-          <li><a href="#talks">Talks</a></li>
-				  <li><a href="file/FeiWang_CV.pdf">CV</a></li>
-		  </ul>
-		</div>
-	  </div>
-	</nav>
-  
-  <!-- Page Content -->
-    <div class="container">
-
-        <div class="row">
-
-            <!-- Entries Column -->
-            
-            <!-- Contact Info on the Sidebar -->
-            <div class="col-md-4">
-              <div class="row"> <div class="col-md-10 col-xs-4"> <img class="img-responsive" src="images/i2.png" alt=""></div></div><br>
-               <div style="font-family: 'Oswald', sans-serif; font-size: 32px;">
-                 <b>Fei Wang</b></div><br>
-               <p><b>fw4 at ualberta dot ca</b><br>
-               <p>Department of Computing Science<br>
-               University of Alberta<br>
-               </p>
-               
-               <dd><a href="https://scholar.google.ca/citations?user=_aH5jgwAAAAJ&hl=en" target="_blank" class="fa fa-graduation-cap">Google Scholar</a></dd> 
-               <dd><a href="https://github.com/7FeiW" target="_blank" class="fa fa-github"> GitHub</a></dd>
-               <dd><a href="https://www.linkedin.com/in/fei-wang-584a3743/" target="_blank" class="fa fa-linkedin"> LinkedIn</a></dd>
-
-           </div>
-
-            <div class="col-md-8">
-                
-                <!-- Main Image -->
-                <!-- <img class="img-responsive" src="./img/photo.gif" alt=""><br> -->
-
-                <div style="margin-top:3%; text-align:justify;">                
-                  I am a PhD student in the Department of Computing Science at the University of Alberta, supervised by
-                  <a href="https://www.amii.ca/about/our-people/russ-greiner/"> Prof. Russ Greiner </a> and 
-                  <a href="https://www.wishartlab.com"> Prof. David S. Wishart </a>.
-                  My main interest is developing machine learning models for chemical data, specifically predicting MS/MS spectra from molecular structures. This work aims to improve the precision and efficiency of mass spectrometry analysis, which is crucial for advancements in fields like metabolomics, drug discovery, biomarker discovery, and environmental analysis.
-                  I am also interested in the reverse problem: predicting molecular structures from mass spectra. Beyond my main research focus, I am interested in other machine learning and cheminformatics problems such as molecular property prediction, molecular generation, and molecular optimization.
-                  Before this journey, I was a software engineer at EA and BioWare, where I worked on games such as FIFA and Dragon Age.
-
-                </div>
-
-                <!-- Projects -->
-                <h2 id="projects" style="margin-top:28px;">Projects</h2>
-                <h4 style="margin-top:16px;">Open Source</h4>
-                <ul class="vert">
-                  <li>
-                      <strong> FraGNNet </strong> &mdash; a deep probabilistic model for predicting tandem mass spectra (MS/MS) from molecular structures. <br>
-                      <a class="buttan source_code" href="https://github.com/FraGNNet/fragnnet">Source Code</a>
-                      <a class="buttan nf" href="https://openreview.net/forum?id=UsqeHx9Mbx">Paper</a>
-                  </li>
-                  <li>
-                      <strong> CFM-ID 4.0 </strong> &mdash; Competitive Fragmentation Modeling for ESI-MS/MS spectrum prediction, peak annotation, and compound identification. <br>
-                      <a class="buttan source_code" href="https://bitbucket.org/wishartlab/cfm-id-code">Source Code</a>
-                      <a class="buttan aux" href="https://hub.docker.com/r/wishartlab/cfmid">Docker Image</a>
-                      <a class="buttan aux" href="https://cfmid.wishartlab.com/">Web Server</a>
-                  </li>
-                  <li>
-                      <strong> FW's Incomplete Guide to Python Research Codebase </strong> &mdash; a work-in-progress guide to building and maintaining Python codebases for computational research, including working with LLM coding agents. <br>
-                      <a class="buttan source_code" href="https://github.com/7FeiW/Incomplete_guide">Source Code</a>
-                  </li>
-                  <li>
-                      <strong> DRAC Usage Reporter </strong> &mdash; usage audits of a research group's Slurm accounts on Digital Research Alliance of Canada (DRAC) clusters: GPU and CPU usage per user and cluster, job efficiency, and flags for request patterns that waste allocation or hide failures. <br>
-                      <a class="buttan source_code" href="https://github.com/7FeiW/drac_usage_reporter">Source Code</a>
-                  </li>
-                </ul>
-
-                <h4 style="margin-top:16px;">Upcoming</h4>
-                <ul class="vert">
-                  <li>
-                      <strong> RaDOr </strong> &mdash; rare disease answers: ask questions about rare diseases, and explore diseases, genes, and cases. <br>
-                      <a class="buttan aux" href="https://rador.ca/">Web App</a>
-                  </li>
-                </ul>
-
-                <h4 style="margin-top:16px;">Hackathon Projects</h4>
-                <ul class="vert">
-                  <li>
-                      <strong> MSEffect </strong> &mdash; high-resolution, interpretable MS/MS spectrum prediction combining FraGNNet with large-scale unlabelled spectra from DreaMS. Enveda Seedling Prize winner and 2nd place overall at the Evolved Bio x ML Hackathon 2024. <em>(coming soon)</em> <br>
-                      <a class="buttan aux" href="https://mseffect.net/">Project Website</a>
-                  </li>
-                </ul>
-
-                <!-- Publications -->
-                <h2 id="publications" style="margin-top:28px;">Selected Publications</h2>
-                <p class="small" style="margin-top:-8px;"><sup>**</sup> Co-first author</p>
-                <ul class="vert">
-                  <li>
-                      <strong> Confronting spurious evaluations of computational methods in small molecule mass spectrometry </strong>. <br>
-                      Vishu Gupta, Chencheng Xu, Ehud Herbst, Fei Wang, David S Wishart, Michael A Skinnider <br>
-                      <a class="buttan nf" href="https://www.biorxiv.org/content/10.64898/2026.05.03.722532v2.abstract">biorxiv</a>
-                  </li>
-                  <li>
-                      <strong> Language model-guided anticipation and discovery of mammalian metabolites </strong>. <br>
-                     Hantao Qiang, Fei Wang<sup>**</sup>, Wenyun Lu, Xi Xing, Hahn Kim, Sandrine AM Mérette, Lucas B Ayres, Eponine Oler, Jenna E AbuSalim, Asael Roichman, Michael Neinast, Ricardo A Cordova, Won Dong Lee, Ehud Herbst, Vishu Gupta, Samuel L Neff, Mickel Hiebert-Giesbrecht, Adamo Young, Vasuk Gautam, Siyang Tian, Bo Wang, Hannes Röst, Jatinder Baidwan, Russell Greiner, Li Chen, Chad W Johnston, Leonard J Foster, Aaron M Shapiro, David S Wishart, Joshua D Rabinowitz, Michael A Skinnider <br>
-                      <a class="buttan nf" href="https://www.nature.com/articles/s41586-025-09969-x">Nature</a>
-                      <a class="buttan aux" href="https://deepmet.org">Project Website</a>
-                  </li>
-                  <li>
-                      <strong> FraGNNet: A Deep Probabilistic Model for Mass Spectrum Prediction </strong>. <br>
-                      Adamo Young, Fei Wang<sup>**</sup>, David Wishart, Bo Wang, Hannes Röst, Russ Greiner <br>
-                      <a class="buttan nf" href="https://openreview.net/forum?id=UsqeHx9Mbx">TMLR</a>
-                      <a class="buttan source_code" href="https://github.com/FraGNNet/fragnnet">Source Code</a>
-                  </li>
-                  <li>
-                    <strong> DrugBank 6.0: the DrugBank knowledgebase for 2024 </strong>. <br>
-                    Craig Knox, Mike Wilson, Christen M Klinger, Mark Franklin, Eponine Oler, Alex Wilson, Allison Pon, Jordan Cox, Na Eun Chin, Seth A Strawbridge, Marysol Garcia-Patino, Ray Kruger, Aadhavya Sivakumaran, Selena Sanford, Rahil Doshi, Nitya Khetarpal, Omolola Fatokun, Daphnee Doucet, Ashley Zubkowski, Dorsa Yahya Rayat, Hayley Jackson, Karxena Harford, Afia Anjum, Mahi Zakir, Fei Wang, Siyang Tian, Brian Lee, Jaanus Liigand, Harrison Peters, Ruo Qi Wang, Tue Nguyen, Denise So, Matthew Sharp, Rodolfo da Silva, Cyrella Gabriel, Joshua Scantlebury, Marissa Jasinski, David Ackerman, Timothy Jewison, Tanvir Sajed, Vasuk Gautam, David S Wishart <br>                    
-                    <a class="buttan nf" href="https://academic.oup.com/nar/article/52/D1/D1265/7416367">Nucleic Acids Research</a>
-                    <a class="buttan aux" href="https://go.drugbank.com/">Project Website</a><br>
-                  </li>
-                  <li>
-                  <strong> Deep Learning-Enabled MS/MS Spectrum Prediction Facilitates Automated Identification Of Novel Psychoactive Substances </strong>. <br>
-                    Fei Wang, Daniel Pasin, Michael A Skinnider, Jaanus Liigand, Jan-Niklas Kleis, David Brown, Eponine Oler, Tanvir Sajed, Vasuk Gautam, Stephen Harrison, Russell Greiner, Leonard J Foster, Petur Weihe Dalsgaard, David S Wishart  <br>
-                    <a class="buttan nf" href="https://pubs.acs.org/doi/full/10.1021/acs.analchem.3c02413">Analytical Chemistry</a>
-                    <a class="buttan aux" href="https://nps-ms.ca">Project Website</a>
-                    <a class="buttan news" href="https://www.ualberta.ca/folio/2024/02/ai-powered-platform-could-help-law-enforcement-get-ahead-of-designer-drugs.html">News</a><br>
-                  </li>
-                  <li>
-                      <strong> HMDB 5.0: the human metabolome database for 2022 </strong>. <br>
-                      David S Wishart, AnChi Guo, Eponine Oler, Fei Wang, Afia Anjum, Harrison Peters, Raynard Dizon, Zinat Sayeeda, Siyang Tian, Brian L Lee, Mark Berjanskii, Robert Mah, Mai Yamamoto, Juan Jovel, Claudia Torres-Calzada, Mickel Hiebert-Giesbrecht, Vicki W Lui, Dorna Varshavi, Dorsa Varshavi, Dana Allen, David Arndt, Nitya Khetarpal, Aadhavya Sivakumaran, Karxena Harford, Selena Sanford, Kristen Yee, Xuan Cao, Zachary Budinski, Jaanus Liigand, Lun Zhang, Jiamin Zheng, Rupasri Mandal, Naama Karu, Maija Dambrova, Helgi B Schiöth, Russell Greiner, Vasuk Gautam  <br>
-                      <a class="buttan nf" href="https://academic.oup.com/nar/article/50/D1/D622/6431815">Nucleic Acids Research</a>
-                      <a class="buttan aux" href="https://hmdb.ca/">Project Website</a><br>
-                  </li>
-                  <li>
-                    <strong> A deep generative model enables automated structure elucidation of novel psychoactive substances </strong>. <br>
-                    Michael A Skinnider, Fei Wang, Daniel Pasin, Russell Greiner, Leonard J Foster, Petur W Dalsgaard, David S Wishart <br>
-                    <a class="buttan nf" href="https://www.nature.com/articles/s42256-021-00407-x">Nature Machine Intelligence</a>
-                    <a class="buttan news" href="https://www.ualberta.ca/folio/2021/11/scientists-use-machine-learning-to-help-combat-crime-by-identifying-potential-street-drug-compounds.html">News</a><br>
-                  </li>
-                  <li>
-                    <strong> Exploring language-agnostic speech representations using domain knowledge for detecting Alzheimer’s dementia </strong>. <br>
-                    Zehra Shah, Shi-Ang Qi, Fei Wang, Mahtab Farrokh, Mashrura Tasnim, Eleni Stroulia, Russell Greiner, Manos Plitsis, Athanasios Katsamanis <br>
-                    <a class="buttan nf" href="https://ieeexplore.ieee.org/abstract/document/10095593">ICASSP 2023</a>
-                    <a class="buttan news" href="https://www.ualberta.ca/folio/2023/05/ml-model-able-to-detect-signs-of-alzheimers-across-languages.html">News</a><br>
-                  </li>
-                  <li>
-                    <strong> CFM-ID 4.0–a web server for accurate MS-based metabolite identification </strong>. <br>
-                    Fei Wang, Dana Allen, Siyang Tian, Eponine Oler, Vasuk Gautam, Russell Greiner, Thomas O Metz, David S Wishart <br>
-                    <a class="buttan nf" href="https://academic.oup.com/nar/article/50/W1/W165/6591530">Nucleic Acids Research</a>
-                    <a class="buttan aux" href="https://cfmid.wishartlab.com/">Project Website</a><br>
-                  </li>
-                  <li>
-                    <strong> CFM-ID 4.0: more accurate ESI-MS/MS spectral prediction and compound identification </strong>. <br>
-                    Fei Wang, Jaanus Liigand, Siyang Tian, David Arndt, Russell Greiner, David S Wishart <br>
-                    <a class="buttan nf" href="https://pubs.acs.org/doi/full/10.1021/acs.analchem.1c01465">Analytical Chemistry</a><br>
-                  </li>
-                  </ul>
-
-                <!-- Talks and Conferences -->
-                <h2 id="talks" style="margin-top:28px;">Talks &amp; Conferences</h2>
-                <h4 style="margin-top:16px;">Invited Seminars</h4>
-                <ul class="vert">
-                  <li>
-                      <strong> Advances and Opportunities in Artificial Intelligence for Computational Metabolomics </strong> <br>
-                      NII Shonan Meeting No. 250, Shonan Village Center, Japan, 2026 (invited participant; unable to attend due to visa issues) <br>
-                      <a class="buttan aux" href="https://shonan.nii.ac.jp/seminars/250/">Meeting Page</a>
-                  </li>
-                  <li>
-                      <strong> Computational Metabolomics: Discovery of New Molecules to Actionable Insights </strong> <br>
-                      Dagstuhl Seminar 26181, Schloss Dagstuhl, 2026 (invited participant) <br>
-                      <a class="buttan aux" href="https://www.dagstuhl.de/26181">Seminar Page</a>
-                  </li>
-                </ul>
-                <h4 style="margin-top:16px;">Conference Presentations</h4>
-                <ul class="vert">
-                  <li>
-                      <strong> FraGNNet 2 </strong> <br>
-                       7th Annual MANA Conference, 2025
-                  </li>
-                  <li>
-                      <strong> MassSpecGym: A Benchmark for the Discovery and Identification of Molecules </strong> <br>
-                      NeurIPS 2024, Datasets and Benchmarks Track (Spotlight), Vancouver <br>
-                      <a class="buttan nf" href="https://openreview.net/forum?id=AAo8zAShX3">OpenReview</a>
-                      <a class="buttan source_code" href="https://github.com/pluskal-lab/MassSpecGym">Source Code</a>
-                  </li>
-                  <li>
-                      <strong> FraGNNet: A Deep Probabilistic Model for Mass Spectrum Prediction </strong> <br>
-                      Intelligent Systems for Molecular Biology (ISMB), 2024
-                  </li>
-                  <li>
-                      <strong> CFM-ID 4 Plus: An Improved MS/MS Prediction Tool </strong> <br>
-                      Metabolomics Conference, 2023
-                  </li>
-                  <li>
-                      <strong> Build Domain-Specific ESI-MS/MS Prediction Models from Pre-trained CFM-ID 4.0 </strong> <br>
-                      4th Annual MANA Conference, 2022
-                  </li>
-                  <li>
-                      <strong> Accurate MS/MS Spectral Prediction with CFM-ID 4.0 </strong> <br>
-                      Metabolomics Conference, 2020
-                  </li>
-                </ul>
-
-                <!-- Reviewer Section -->
-                <div id="review" style="margin-top:22px;">
-                  <h2>Peer Review</h2>
-                   <ul class="vert">
-                  <li>
-                      Peer reviewer for Nature Methods, Nature Machine Intelligence, Nature Communications, Nature Chemistry, ACS journals, and other journals.
-                  </li>
-                  </ul>
-                </div>
-            </div>
-
-          
+    <div class="page-layout">
+      <aside class="profile" aria-labelledby="profile-name">
+        <img class="portrait" src="images/i2.png" alt="Portrait of Fei Wang" width="750" height="595">
+        <div class="profile-info">
+          <h1 id="profile-name">Fei Wang</h1>
+          <p class="profile-role">PhD Student</p>
+          <p class="affiliation">Department of Computing Science<br>University of Alberta</p>
+          <p class="email">fw4 at ualberta dot ca</p>
+          <ul class="profile-links" aria-label="Academic and professional profiles">
+            <li><a href="https://scholar.google.ca/citations?user=_aH5jgwAAAAJ&amp;hl=en"><i class="profile-icon fa-google-scholar" aria-hidden="true"></i>Google Scholar</a></li>
+            <li><a href="https://github.com/7FeiW"><i class="profile-icon fa-github" aria-hidden="true"></i>GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/fei-wang-584a3743/"><i class="profile-icon fa-linkedin" aria-hidden="true"></i>LinkedIn</a></li>
+          </ul>
         </div>
+      </aside>
 
+      <main id="main" tabindex="-1">
+        <section class="intro" aria-labelledby="research-heading">
+          <p class="eyebrow">AI for Science &amp; Health</p>
+          <h2 id="research-heading">Machine learning for<br class="desktop-break"> molecular discovery.</h2>
+          <p class="lead">I develop machine learning methods for molecular discovery and computational metabolomics, with applications in drug discovery and human health.</p>
+          <p>I am a PhD student in the Department of Computing Science at the University of Alberta, supervised by
+            <a href="https://www.amii.ca/about/our-people/russ-greiner/">Prof. Russ Greiner</a> and
+            <a href="https://www.wishartlab.com">Prof. David S. Wishart</a>.</p>
+          <p>My main interest is predicting MS/MS spectra from molecular structures to improve the precision and efficiency of mass spectrometry analysis, with applications in metabolomics, drug discovery, biomarker discovery, and environmental analysis. I also study the reverse problem: predicting molecular structures from mass spectra, alongside molecular property prediction, molecular generation, and molecular optimization.</p>
+          <p>Previously, I was a software engineer at EA and BioWare, working on games such as <em>FIFA</em> and <em>Dragon Age</em>.</p>
+        </section>
+        <section class="content-section" aria-labelledby="projects">
+          <!-- Projects -->
+          <h2 id="projects">Projects</h2>
+          <h3>Open Source</h3>
+          <ul class="vert">
+            <li>
+              <strong> FraGNNet </strong> &mdash; a deep probabilistic model for predicting tandem mass spectra (MS/MS) from molecular structures. <br>
+              <a class="buttan source_code" href="https://github.com/FraGNNet/fragnnet">Source Code</a>
+              <a class="buttan nf" href="https://openreview.net/forum?id=UsqeHx9Mbx">Paper</a>
+            </li>
+            <li>
+              <strong> CFM-ID 4.0 </strong> &mdash; Competitive Fragmentation Modeling for ESI-MS/MS spectrum prediction, peak annotation, and compound identification. <br>
+              <a class="buttan source_code" href="https://bitbucket.org/wishartlab/cfm-id-code">Source Code</a>
+              <a class="buttan aux" href="https://hub.docker.com/r/wishartlab/cfmid">Docker Image</a>
+              <a class="buttan aux" href="https://cfmid.wishartlab.com/">Web Server</a>
+            </li>
+            <li>
+              <strong> FW's Incomplete Guide to Python Research Codebase </strong> &mdash; a work-in-progress guide to building and maintaining Python codebases for computational research, including working with LLM coding agents. <br>
+              <a class="buttan source_code" href="https://github.com/7FeiW/Incomplete_guide">Source Code</a>
+            </li>
+            <li>
+              <strong> DRAC Usage Reporter </strong> &mdash; usage audits of a research group's Slurm accounts on Digital Research Alliance of Canada (DRAC) clusters: GPU and CPU usage per user and cluster, job efficiency, and flags for request patterns that waste allocation or hide failures. <br>
+              <a class="buttan source_code" href="https://github.com/7FeiW/drac_usage_reporter">Source Code</a>
+            </li>
+          </ul>
+
+          <h3>Upcoming</h3>
+          <ul class="vert">
+            <li>
+              <strong> RaDOr </strong> &mdash; rare disease answers: ask questions about rare diseases, and explore diseases, genes, and cases. <br>
+              <a class="buttan aux" href="https://rador.ca/">Web App</a>
+            </li>
+          </ul>
+
+          <h3>Hackathon Projects</h3>
+          <ul class="vert">
+            <li>
+              <strong> MSEffect </strong> &mdash; high-resolution, interpretable MS/MS spectrum prediction combining FraGNNet with large-scale unlabelled spectra from DreaMS. Enveda Seedling Prize winner and 2nd place overall at the Evolved Bio x ML Hackathon 2024. <em>(coming soon)</em> <br>
+              <a class="buttan aux" href="https://mseffect.net/">Project Website</a>
+            </li>
+          </ul>
+        </section>
+        <section class="content-section" aria-labelledby="publications">
+          <!-- Publications -->
+          <h2 id="publications">Selected Publications</h2>
+          <p class="section-note"><sup>**</sup> Co-first author</p>
+          <ul class="vert publications-list">
+            <li>
+              <strong>Confronting spurious evaluations of computational methods in small molecule mass spectrometry</strong>
+              <p class="authors">Vishu Gupta, Chencheng Xu, Ehud Herbst, <strong>Fei Wang</strong>, David S Wishart, Michael A Skinnider</p>
+              <a class="buttan nf" href="https://www.biorxiv.org/content/10.64898/2026.05.03.722532v2.abstract">biorxiv</a>
+            </li>
+            <li>
+              <strong>Language model-guided anticipation and discovery of mammalian metabolites</strong>
+              <details class="author-details"><summary>Hantao Qiang et al. (including <strong>Fei Wang</strong><sup>**</sup>) <span>All authors</span></summary><p>Hantao Qiang, <strong>Fei Wang</strong><sup>**</sup>, Wenyun Lu, Xi Xing, Hahn Kim, Sandrine AM Mérette, Lucas B Ayres, Eponine Oler, Jenna E AbuSalim, Asael Roichman, Michael Neinast, Ricardo A Cordova, Won Dong Lee, Ehud Herbst, Vishu Gupta, Samuel L Neff, Mickel Hiebert-Giesbrecht, Adamo Young, Vasuk Gautam, Siyang Tian, Bo Wang, Hannes Röst, Jatinder Baidwan, Russell Greiner, Li Chen, Chad W Johnston, Leonard J Foster, Aaron M Shapiro, David S Wishart, Joshua D Rabinowitz, Michael A Skinnider</p></details>
+              <a class="buttan nf" href="https://www.nature.com/articles/s41586-025-09969-x">Nature</a>
+              <a class="buttan aux" href="https://deepmet.org">Project Website</a>
+            </li>
+            <li>
+              <strong>FraGNNet: A Deep Probabilistic Model for Mass Spectrum Prediction</strong>
+              <p class="authors">Adamo Young, <strong>Fei Wang</strong><sup>**</sup>, David Wishart, Bo Wang, Hannes Röst, Russ Greiner</p>
+              <a class="buttan nf" href="https://openreview.net/forum?id=UsqeHx9Mbx">TMLR</a>
+              <a class="buttan source_code" href="https://github.com/FraGNNet/fragnnet">Source Code</a>
+            </li>
+            <li>
+              <strong>DrugBank 6.0: the DrugBank knowledgebase for 2024</strong>
+              <details class="author-details"><summary>Craig Knox et al. (including <strong>Fei Wang</strong>) <span>All authors</span></summary><p>Craig Knox, Mike Wilson, Christen M Klinger, Mark Franklin, Eponine Oler, Alex Wilson, Allison Pon, Jordan Cox, Na Eun Chin, Seth A Strawbridge, Marysol Garcia-Patino, Ray Kruger, Aadhavya Sivakumaran, Selena Sanford, Rahil Doshi, Nitya Khetarpal, Omolola Fatokun, Daphnee Doucet, Ashley Zubkowski, Dorsa Yahya Rayat, Hayley Jackson, Karxena Harford, Afia Anjum, Mahi Zakir, <strong>Fei Wang</strong>, Siyang Tian, Brian Lee, Jaanus Liigand, Harrison Peters, Ruo Qi Wang, Tue Nguyen, Denise So, Matthew Sharp, Rodolfo da Silva, Cyrella Gabriel, Joshua Scantlebury, Marissa Jasinski, David Ackerman, Timothy Jewison, Tanvir Sajed, Vasuk Gautam, David S Wishart</p></details>
+              <a class="buttan nf" href="https://academic.oup.com/nar/article/52/D1/D1265/7416367">Nucleic Acids Research</a>
+              <a class="buttan aux" href="https://go.drugbank.com/">Project Website</a><br>
+            </li>
+            <li>
+              <strong>Deep Learning-Enabled MS/MS Spectrum Prediction Facilitates Automated Identification Of Novel Psychoactive Substances</strong>
+              <p class="authors"><strong>Fei Wang</strong>, Daniel Pasin, Michael A Skinnider, Jaanus Liigand, Jan-Niklas Kleis, David Brown, Eponine Oler, Tanvir Sajed, Vasuk Gautam, Stephen Harrison, Russell Greiner, Leonard J Foster, Petur Weihe Dalsgaard, David S Wishart</p>
+              <a class="buttan nf" href="https://pubs.acs.org/doi/full/10.1021/acs.analchem.3c02413">Analytical Chemistry</a>
+              <a class="buttan aux" href="https://nps-ms.ca">Project Website</a>
+              <a class="buttan news" href="https://www.ualberta.ca/folio/2024/02/ai-powered-platform-could-help-law-enforcement-get-ahead-of-designer-drugs.html">News</a><br>
+            </li>
+            <li>
+              <strong>HMDB 5.0: the human metabolome database for 2022</strong>
+              <details class="author-details"><summary>David S Wishart et al. (including <strong>Fei Wang</strong>) <span>All authors</span></summary><p>David S Wishart, AnChi Guo, Eponine Oler, <strong>Fei Wang</strong>, Afia Anjum, Harrison Peters, Raynard Dizon, Zinat Sayeeda, Siyang Tian, Brian L Lee, Mark Berjanskii, Robert Mah, Mai Yamamoto, Juan Jovel, Claudia Torres-Calzada, Mickel Hiebert-Giesbrecht, Vicki W Lui, Dorna Varshavi, Dorsa Varshavi, Dana Allen, David Arndt, Nitya Khetarpal, Aadhavya Sivakumaran, Karxena Harford, Selena Sanford, Kristen Yee, Xuan Cao, Zachary Budinski, Jaanus Liigand, Lun Zhang, Jiamin Zheng, Rupasri Mandal, Naama Karu, Maija Dambrova, Helgi B Schiöth, Russell Greiner, Vasuk Gautam</p></details>
+              <a class="buttan nf" href="https://academic.oup.com/nar/article/50/D1/D622/6431815">Nucleic Acids Research</a>
+              <a class="buttan aux" href="https://hmdb.ca/">Project Website</a><br>
+            </li>
+            <li>
+              <strong>A deep generative model enables automated structure elucidation of novel psychoactive substances</strong>
+              <p class="authors">Michael A Skinnider, <strong>Fei Wang</strong>, Daniel Pasin, Russell Greiner, Leonard J Foster, Petur W Dalsgaard, David S Wishart</p>
+              <a class="buttan nf" href="https://www.nature.com/articles/s42256-021-00407-x">Nature Machine Intelligence</a>
+              <a class="buttan news" href="https://www.ualberta.ca/folio/2021/11/scientists-use-machine-learning-to-help-combat-crime-by-identifying-potential-street-drug-compounds.html">News</a><br>
+            </li>
+            <li>
+              <strong>Exploring language-agnostic speech representations using domain knowledge for detecting Alzheimer’s dementia</strong>
+              <p class="authors">Zehra Shah, Shi-Ang Qi, <strong>Fei Wang</strong>, Mahtab Farrokh, Mashrura Tasnim, Eleni Stroulia, Russell Greiner, Manos Plitsis, Athanasios Katsamanis</p>
+              <a class="buttan nf" href="https://ieeexplore.ieee.org/abstract/document/10095593">ICASSP 2023</a>
+              <a class="buttan news" href="https://www.ualberta.ca/folio/2023/05/ml-model-able-to-detect-signs-of-alzheimers-across-languages.html">News</a><br>
+            </li>
+            <li>
+              <strong>CFM-ID 4.0–a web server for accurate MS-based metabolite identification</strong>
+              <p class="authors"><strong>Fei Wang</strong>, Dana Allen, Siyang Tian, Eponine Oler, Vasuk Gautam, Russell Greiner, Thomas O Metz, David S Wishart</p>
+              <a class="buttan nf" href="https://academic.oup.com/nar/article/50/W1/W165/6591530">Nucleic Acids Research</a>
+              <a class="buttan aux" href="https://cfmid.wishartlab.com/">Project Website</a><br>
+            </li>
+            <li>
+              <strong>CFM-ID 4.0: more accurate ESI-MS/MS spectral prediction and compound identification</strong>
+              <p class="authors"><strong>Fei Wang</strong>, Jaanus Liigand, Siyang Tian, David Arndt, Russell Greiner, David S Wishart</p>
+              <a class="buttan nf" href="https://pubs.acs.org/doi/full/10.1021/acs.analchem.1c01465">Analytical Chemistry</a><br>
+            </li>
+          </ul>
+        </section>
+        <section class="content-section" aria-labelledby="talks">
+          <!-- Talks and Conferences -->
+          <h2 id="talks">Talks &amp; Conferences</h2>
+          <h3>Invited Seminars</h3>
+          <ul class="vert">
+            <li>
+              <strong> Advances and Opportunities in Artificial Intelligence for Computational Metabolomics </strong> <br>
+              NII Shonan Meeting No. 250, Shonan Village Center, Japan, 2026 (invited participant; unable to attend due to visa issues) <br>
+              <a class="buttan aux" href="https://shonan.nii.ac.jp/seminars/250/">Meeting Page</a>
+            </li>
+            <li>
+              <strong> Computational Metabolomics: Discovery of New Molecules to Actionable Insights </strong> <br>
+              Dagstuhl Seminar 26181, Schloss Dagstuhl, 2026 (invited participant) <br>
+              <a class="buttan aux" href="https://www.dagstuhl.de/26181">Seminar Page</a>
+            </li>
+          </ul>
+          <h3>Conference Presentations</h3>
+          <ul class="vert">
+            <li>
+              <strong> FraGNNet 2 </strong> <br>
+              7th Annual MANA Conference, 2025
+            </li>
+            <li>
+              <strong> MassSpecGym: A Benchmark for the Discovery and Identification of Molecules </strong> <br>
+              NeurIPS 2024, Datasets and Benchmarks Track (Spotlight), Vancouver <br>
+              <a class="buttan nf" href="https://openreview.net/forum?id=AAo8zAShX3">OpenReview</a>
+              <a class="buttan source_code" href="https://github.com/pluskal-lab/MassSpecGym">Source Code</a>
+            </li>
+            <li>
+              <strong> FraGNNet: A Deep Probabilistic Model for Mass Spectrum Prediction </strong> <br>
+              Intelligent Systems for Molecular Biology (ISMB), 2024
+            </li>
+            <li>
+              <strong> CFM-ID 4 Plus: An Improved MS/MS Prediction Tool </strong> <br>
+              Metabolomics Conference, 2023
+            </li>
+            <li>
+              <strong> Build Domain-Specific ESI-MS/MS Prediction Models from Pre-trained CFM-ID 4.0 </strong> <br>
+              4th Annual MANA Conference, 2022
+            </li>
+            <li>
+              <strong> Accurate MS/MS Spectral Prediction with CFM-ID 4.0 </strong> <br>
+              Metabolomics Conference, 2020
+            </li>
+          </ul>
+        </section>
+        <section class="content-section" aria-labelledby="review">
+          <h2 id="review">Peer Review</h2>
+          <p>Peer reviewer for Nature Methods, Nature Machine Intelligence, Nature Communications, Nature Chemistry, ACS journals, and other journals.</p>
+        </section>
+      </main>
     </div>
-    <!-- /.container -->
-    
-    <!-- Other people may like it too! -->
-    <a style="color:#b5bec9;font-size:0.8em; float:right;" href="https://github.com/mavroudisv/plain-academic">Plain Academic</a> 
-    
-</body>
-
+    <footer class="site-footer">
+      <span>Fei Wang · University of Alberta</span>
+      <a href="https://github.com/mavroudisv/plain-academic">Based on Plain Academic <span aria-hidden="true">↗</span></a>
+    </footer>
+  </body>
 </html>
