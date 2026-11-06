@@ -1,0 +1,8 @@
+Princeton shield: assets/icon/princeton-shield.svg
+Author: Artem Korzhimanov
+Source: https://commons.wikimedia.org/wiki/File:Princeton_University_Shield.svg
+Original: https://upload.wikimedia.org/wikipedia/commons/a/ae/Princeton_University_Shield.svg
+License: Public domain (PD-shape), as stated on the source page.
+
+University of Alberta crest: images/thumbs/UofA-logo.jpg
+Reused from the existing website assets.
